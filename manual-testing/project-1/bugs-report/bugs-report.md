@@ -1,30 +1,56 @@
 # Bug Reports - Urban Scooter
 ## Bug US-3
-###Precondiciones
-
+## Título
+El botón siguiente está habilitado habiendo introducido todos los campos de forma correcta, excepto el campo dirección
+### Precondiciones
 * Abrir la aplicación web Urban Scooter.
-Desplazarse hasta el botón “Pedir“
-
-Pasos a reproducir
-
-Rellenar todos los campos de forma correcta excepto el campo “Dirección: a dónde llevar el scooter“
-
-Este campo dejarlo vacío.
-
-Hacer clic en el botón “Siguiente“
-
-Resultado esperado
-
+* Desplazarse hasta el botón “Pedir“
+### Pasos a reproducir
+* Rellenar todos los campos de forma correcta excepto el campo “Dirección: a dónde llevar el scooter“
+* Este campo dejarlo vacío.
+* Hacer clic en el botón “Siguiente“
+### Resultado esperado
 El botón “Siguiente” debería estar inhabilitado, el campo “Dirección: a dónde llevar el scooter“ se resalta en rojo.  
-
-Resultado actual
-
+### Resultado actual
 El botón siguiente se encuentra habilitado, el usuario es desplazado a la pantalla “Alquiler“
+### Versiones
+* SO - Windows 11 Pro
+### Navegadores
+* Firefox 1920x1080 versión 146.0 (64-bit)
 
-Versiones
+## Bug US-15
+##Título
+El campo "Apellido" no cumple con el límite superior establecido en los requisitos(15), admite cantidades mayores de carácteres
+### Precondiciones
+* Abrir la aplicación web Urban Scooter.
+* Desplazarse hasta el botón “Pedir“
+### Pasos a seguir
+* Rellenar el campo “Apellido“ con el siguiente dato “De la Caridad Estrada Infante del Puerto del Cerro Tercero“- 59 carácteres.
+* Rellenar el resto de campos de forma correcta
+* Hacer clic en el botón “Siguiente“
+### Resultado esperado
+El botón “Siguiente” debería estar inhabilitado, el campo “Apellido“ se resalta en rojo.
+### Resultado actual
+El botón siguiente se encuentra habilitado, el usuario es desplazado a la pantalla “Alquiler“
+### Versiones
+* SO - Windows 11 Pro
+### Navegadores
+* Firefox 1920x1080 versión 146.0 (64-bit)
 
-SO - Windows 11 Pro
-
-Navegadores
-
-Firefox 1920x1080 versión 146.0 (64-bit)
+## Bug US-52
+##Título
+En el campo "Fecha de entrega" en la pantalla "Estado del pedido" la fecha que aparece no coincide con la introducida por el usuario
+### Precondiciones
+* Abrir la aplicación web Urban Scooter.
+* Desplazarse hasta el botón “Pedir“
+### Pasos a seguir
+* Realizar el pedido de forma correcta
+* Verificar el campo Fecha de entrega en la pantalla Estado del pedido
+### Resultado esperado
+El campo Fecha de entrega coincide con el introducido por el usuario.
+### Resultado actual
+El campo Fecha de entrega NO coincide con el introducido por el usuario.
+### Versiones
+* SO - Windows 11 Pro
+### Navegadores
+* Firefox 1920x1080 versión 146.0 (64-bit)
