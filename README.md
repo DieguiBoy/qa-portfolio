@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="images/banner.png" width="900">
+</p>
+
+
 # QA Portfolio – Diego Llanes
 
 Welcome to my Quality Assurance portfolio.  
